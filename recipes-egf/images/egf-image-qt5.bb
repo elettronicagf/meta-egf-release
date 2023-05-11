@@ -1,3 +1,4 @@
+
 # Copyright (C) 2015 Freescale Semiconductor
 # Copyright 2017-2020 NXP
 # Released under the MIT license (see COPYING.MIT for the terms)
@@ -56,6 +57,8 @@ IMAGE_INSTALL += " qtmultimedia-qmlplugins "
 IMAGE_INSTALL += " gstreamer1.0 "
 IMAGE_INSTALL += " gstreamer1.0-plugins-good "
 #IMAGE_INSTALL += " gstreamer1.0-plugins-imx "
+
+IMAGE_FEATURES_remove += "ssh-server-dropbear"
 
 # Add machine learning for certain SoCs
 ML_PKGS                   ?= ""
