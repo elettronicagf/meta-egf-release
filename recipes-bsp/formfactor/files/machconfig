@@ -1,0 +1,3 @@
+export TOUCHSCREEN_MODEL=
+export HAVE_TOUCHSCREEN=1
+
